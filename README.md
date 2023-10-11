@@ -14,10 +14,12 @@ pnpm dev
 bun dev
 ```
 
-##Content
+## Content
+
 SpinBet Exam
 
-##Tech Stack
+## Tech Stack
+
 ReactJs
 Next.js
 Typescript
