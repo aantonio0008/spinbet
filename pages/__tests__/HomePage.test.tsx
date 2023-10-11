@@ -2,6 +2,7 @@ import { render, renderHook, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
 import HomePage from "..";
+import { FilterOption } from "@/types/FilterOptions";
 import useGetMatchCount from "@/hooks/useGetMatchCount";
 import { dummyData, filterOptions } from "@/constant/sports";
 

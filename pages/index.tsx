@@ -7,7 +7,9 @@ import { Match } from "@/types/Match";
 import Card from "@/components/ui/Card";
 import { Wrapper } from "./match/Match.styles";
 import { MatchListContainer } from "./styles/HomePage.style";
+
 const HomePage = () => {
+  //TODO: request the data from an API call
   const [matches, setMatches] = useState<Match[]>(dummyData);
 
   const onChangeFilterHandler = (selectedOption: string) => {
